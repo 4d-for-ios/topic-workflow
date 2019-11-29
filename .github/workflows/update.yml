@@ -1,0 +1,23 @@
+name: update
+
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  update:
+    name: update
+    runs-on: macOS-latest
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🔄 Update JSON
+        run: |
+          ./topics.sh
+      - name: ⬆️ Push
+        run: |
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -a -m "🔄 Update"
+          ./push.sh "master" "${{ secrets.GITHUB_TOKEN }}"
