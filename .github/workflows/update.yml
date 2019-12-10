@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 1
       - name: 🔄 Update JSON
         run: |
-          ./topics.sh
+          ./topics.sh "${{ secrets.GITHUB_TOKEN }}"
       - name: ⬆️ Push
         run: |
           git add .
