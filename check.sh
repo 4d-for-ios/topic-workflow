@@ -2,8 +2,8 @@
 currentDir="."
 token=$1
 input="$currentDir/topics.txt"
-while IFS= read -r line
 status=0
+while IFS= read -r line
 do
   echo "$line"
   jsonFile=$currentDir/$line.json
