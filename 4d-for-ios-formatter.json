@@ -81,6 +81,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Mail/pulls{/number}",
       "pushed_at": "2019-11-28T13:53:32Z",
@@ -184,6 +189,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Url/pulls{/number}",
@@ -289,6 +299,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Phone/pulls{/number}",
       "pushed_at": "2019-11-28T13:53:42Z",
@@ -392,6 +407,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Address/pulls{/number}",
@@ -497,6 +517,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-IntegerToImage/pulls{/number}",
       "pushed_at": "2019-11-28T13:53:51Z",
@@ -600,6 +625,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-IntToString/pulls{/number}",
@@ -705,6 +735,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToImage/pulls{/number}",
       "pushed_at": "2019-11-28T13:54:00Z",
@@ -808,6 +843,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/pulls{/number}",
@@ -913,6 +953,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/pulls{/number}",
       "pushed_at": "2019-11-28T13:54:10Z",
@@ -1017,6 +1062,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Emoji/pulls{/number}",
       "pushed_at": "2019-11-28T13:54:15Z",
@@ -1120,6 +1170,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Html/pulls{/number}",

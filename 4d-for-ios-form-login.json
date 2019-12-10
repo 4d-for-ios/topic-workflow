@@ -81,6 +81,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/pulls{/number}",
       "pushed_at": "2019-11-28T13:58:40Z",

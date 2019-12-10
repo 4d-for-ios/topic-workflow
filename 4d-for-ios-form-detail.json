@@ -81,6 +81,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail/pulls{/number}",
       "pushed_at": "2019-11-28T13:53:23Z",
@@ -185,6 +190,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxDetail/pulls{/number}",
@@ -291,6 +301,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/pulls{/number}",
       "pushed_at": "2019-11-28T13:56:48Z",
@@ -395,6 +410,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/pulls{/number}",
@@ -501,6 +521,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/pulls{/number}",
       "pushed_at": "2019-11-28T13:56:58Z",
@@ -605,6 +630,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-LeftCutHeader/pulls{/number}",
@@ -711,6 +741,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Numbers/pulls{/number}",
       "pushed_at": "2019-11-28T13:57:07Z",
@@ -815,6 +850,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxHeader/pulls{/number}",
@@ -921,6 +961,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-RightCutHeader/pulls{/number}",
       "pushed_at": "2019-11-28T13:57:17Z",
@@ -1025,6 +1070,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/pulls{/number}",
@@ -1131,6 +1181,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleHeader/pulls{/number}",
       "pushed_at": "2019-11-28T13:57:29Z",
@@ -1235,6 +1290,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SlidingHeader/pulls{/number}",
@@ -1341,6 +1401,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/pulls{/number}",
       "pushed_at": "2019-11-28T13:57:38Z",
@@ -1445,6 +1510,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksPlus/pulls{/number}",
@@ -1551,6 +1621,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/pulls{/number}",
       "pushed_at": "2019-11-28T13:57:47Z",
@@ -1655,6 +1730,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/pulls{/number}",
@@ -1761,6 +1841,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/pulls{/number}",
       "pushed_at": "2019-11-28T13:57:57Z",
@@ -1866,6 +1951,11 @@
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
       },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
+      },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/pulls{/number}",
       "pushed_at": "2019-11-28T13:58:30Z",
@@ -1970,6 +2060,11 @@
         "subscriptions_url": "https://api.github.com/users/4d-for-ios/subscriptions",
         "type": "Organization",
         "url": "https://api.github.com/users/4d-for-ios"
+      },
+      "permissions": {
+        "admin": false,
+        "pull": false,
+        "push": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/pulls{/number}",
