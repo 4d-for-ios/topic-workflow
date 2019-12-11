@@ -6,7 +6,7 @@ function search_topic {
 search_topic $1 $2
 
 # if incomplete, try again
-incomplete_results=$(jq -r '.incomplete_results' a.json | grep "true" | wc -l)
+incomplete_results=$(jq -r '.incomplete_results' $topic.json | grep "true" | wc -l)
 if [ $incomplete_results -eq 1 ]; then
    sleep 10 # after 10s
    search_topic $1 $2
