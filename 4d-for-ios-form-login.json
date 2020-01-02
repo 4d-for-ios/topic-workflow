@@ -90,7 +90,7 @@
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/pulls{/number}",
       "pushed_at": "2020-01-02T04:52:04Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/releases{/id}",
-      "size": 25,
+      "size": 27,
       "ssh_url": "git@github.com:4d-for-ios/form-login-SignInWithApple.git",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/stargazers",
