@@ -1958,7 +1958,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/pulls{/number}",
-      "pushed_at": "2019-11-28T13:58:30Z",
+      "pushed_at": "2020-01-07T14:47:41Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/releases{/id}",
       "size": 191,
       "ssh_url": "git@github.com:4d-for-ios/form-detail-ClientDetail.git",
@@ -1976,7 +1976,7 @@
         "4d-for-ios-form-detail"
       ],
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/git/trees{/sha}",
-      "updated_at": "2019-11-28T13:58:32Z",
+      "updated_at": "2020-01-07T14:47:43Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail",
       "watchers": 0,
       "watchers_count": 0
