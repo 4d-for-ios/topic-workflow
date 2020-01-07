@@ -1960,7 +1960,7 @@
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/pulls{/number}",
       "pushed_at": "2020-01-07T14:47:41Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/releases{/id}",
-      "size": 191,
+      "size": 193,
       "ssh_url": "git@github.com:4d-for-ios/form-detail-ClientDetail.git",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/stargazers",
