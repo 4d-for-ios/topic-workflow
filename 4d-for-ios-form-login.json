@@ -88,7 +88,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/pulls{/number}",
-      "pushed_at": "2020-01-02T04:52:04Z",
+      "pushed_at": "2020-01-08T14:26:07Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/releases{/id}",
       "size": 27,
       "ssh_url": "git@github.com:4d-for-ios/form-login-SignInWithApple.git",
