@@ -17,7 +17,7 @@ jobs:
         run: |
           ./topics.sh "${{ secrets.GITHUB_TOKEN }}"
       - name: 🏷 Flatten
-         run: |
+        run: |
           swift build -c release
           .build/release/flatten
       - name: ⬆️ Push
