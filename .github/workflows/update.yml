@@ -16,6 +16,10 @@ jobs:
       - name: 🔄 Update JSON
         run: |
           ./topics.sh "${{ secrets.GITHUB_TOKEN }}"
+      - name: 🏷 Flatten
+         run: |
+          swift build -c release
+          .build/release/flatten
       - name: ⬆️ Push
         run: |
           git add .

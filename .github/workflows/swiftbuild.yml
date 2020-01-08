@@ -1,18 +1,18 @@
-name: check
+name: swiftbuild
 on:
   push:
     paths:
-    - '**.json'
+    - 'Sources/**'
 
 jobs:
   update:
-    name: check
+    name: build
     runs-on: macOS-latest
     steps:
       - name: ⬇️ Checkout
         uses: actions/checkout@master
         with:
           fetch-depth: 1
-      - name: 🔄 Check JSON
+      - name: 🏗 swiftbuild
         run: |
-          ./check.sh
+          swift build
