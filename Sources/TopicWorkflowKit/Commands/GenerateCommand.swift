@@ -3,9 +3,6 @@ import SwiftyJSON
 import Result
 import Foundation
 import Commandant
-import Mailgun
-import Vapor
-import Service
 
 struct GenerateCommand: CommandProtocol {
     typealias Options = GenerateOptions
@@ -24,7 +21,7 @@ struct GenerateCommand: CommandProtocol {
         //let config = Config(options: options) ?? Config.default
         let builder = Generate()
         do {
-            try builder.run(Path(rawValue: workDirectoryString), apiKey: options.apiKey, email: options.email)
+            try builder.run(Path(rawValue: workDirectoryString), apiKey: options.apiKey, email: options.email, domain: options.domain)
         } catch let error as FileKitError {
             print("\(error) \(String(describing: error.error))")
             exit(1)
@@ -43,13 +40,16 @@ struct GenerateOptions: OptionsProtocol {
     let path: String?
     let email: String?
     let apiKey: String?
+    let domain: String?
     let configurationFile: String?
 
-    static func create(_ path: String?) -> (_ email: String?)  -> (_ apiKey: String?) -> (_ config: String?) -> GenerateOptions {
+    static func create(_ path: String?) -> (_ email: String?)  -> (_ apiKey: String?) -> (_ domain: String?) -> (_ config: String?) -> GenerateOptions {
         return { email in
             return { apiKey in
-                return { config in
-                    self.init(path: path, email: email, apiKey: apiKey, configurationFile: config)
+                return { domain in
+                    return { config in
+                        self.init(path: path, email: email, apiKey: apiKey, domain: domain, configurationFile: config)
+                    }
                 }
             }
         }
@@ -60,6 +60,7 @@ struct GenerateOptions: OptionsProtocol {
             <*> mode <| Option(key: "path", defaultValue: nil, usage: "project root directory")
             <*> mode <| Option(key: "email", defaultValue: nil, usage: "email to send new")
             <*> mode <| Option(key: "apiKey", defaultValue: nil, usage: "apiKey to send mail using mailgun")
+            <*> mode <| Option(key: "domain", defaultValue: nil, usage: "domain from the mail is send")
             <*> mode <| Option(key: "config", defaultValue: nil, usage: "the path to configuration file")
     }
 }
@@ -75,68 +76,4 @@ extension Config {
             try? self.init(directoryURL: workDirectory)
         }
     }
-}
-
-public class Generate {
-    public func run(_ workingPath: Path, apiKey: String?, email: String?) throws {
-        let topics = try Topic.readTopics(workingPath)
-
-        var news: [[String: Any]] = []
-        for topic in topics {
-            print("🏷 \(topic.name)")
-            let json = try topic.jsonItems(at: workingPath)
-            print("⏲ \(json["total_count"])")
-            for itemJson in json["items"].arrayValue {
-                if let fullName = itemJson["full_name"].string {
-                    print(" 📦 \(fullName)")
-                    let outputPath: Path = workingPath + "Output"
-                    let topicParentPath: Path = outputPath + topic.name
-                    let topicPath: Path = topicParentPath + "\(fullName).json"
-                    if topicPath.exists {
-                        print("  👴 EXISTS") // could check updated?
-                    } else {
-                        let orgaPath = topicPath.parent
-                        if !orgaPath.exists {
-                            try orgaPath.createDirectory()
-                        }
-                        print("  👶 NEW")
-                        if let data = itemJson.dictionaryObject {
-                            news.append(data)
-                        }
-                    }
-                    try DataFile(path: topicPath).write(itemJson.rawData())
-                }
-            }
-        }
-
-        if !news.isEmpty {
-             print("🎉 There is new packages")
-
-            if let apiKey = apiKey {
-                /*   let domain = "sandbox01fc72c22b9a484eb7ffebbb1d590b73.mailgun.org"
-                 let mailgun = Mailgun(apiKey: apiKey, domain: domain, region: .eu)
-                 let message = Mailgun.TemplateMessage(
-                 from: "eric.marchand@4d.com",
-                 to: email ?? "eric.marchand@4d.com",
-                 subject: "News 4d-for-ios repositories",
-                 template: "new-repository",
-                 templateData: ["repositories": ""]
-                 )
-                 let app = try Application()
-                 let future = try mailgun.send(message, on: app)
-                 let semaphore = DispatchSemaphore(value: 0)
-                 future.whenSuccess { value in
-                 print("send email success")
-                 }
-                 future.whenFailure { error in
-                 print("\(error)")
-                 }
-                 future.whenComplete {
-                 semaphore.signal()
-                 }
-                 semaphore.wait()*/
-            }
-        }
-    }
-
 }

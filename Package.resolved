@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AnyCodable",
+        "repositoryURL": "https://github.com/Flight-School/AnyCodable",
+        "state": {
+          "branch": null,
+          "revision": "6e9610258e9f1044b5e0d88545052846448b43c3",
+          "version": "0.2.3"
+        }
+      },
+      {
         "package": "Commandant",
         "repositoryURL": "https://github.com/Carthage/Commandant.git",
         "state": {
@@ -219,11 +228,11 @@
       },
       {
         "package": "Mailgun",
-        "repositoryURL": "https://github.com/twof/VaporMailgunService.git",
+        "repositoryURL": "https://github.com/phimage/VaporMailgunService.git",
         "state": {
-          "branch": null,
-          "revision": "9c41e744bced6f2f854bd3632333d57d6db46d51",
-          "version": "1.8.1"
+          "branch": "HEAD",
+          "revision": "2aedf66a88cf0e970915d424a4e92f37cce601ea",
+          "version": null
         }
       },
       {
