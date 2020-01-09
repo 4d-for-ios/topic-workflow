@@ -1,6 +1,5 @@
 #!/bin/bash
 currentDir="."
-token=$1
 input="$currentDir/topics.txt"
 status=0
 while IFS= read -r line
