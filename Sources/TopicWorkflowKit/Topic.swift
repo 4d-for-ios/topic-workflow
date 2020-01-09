@@ -2,7 +2,7 @@ import Foundation
 import FileKit
 import SwiftyJSON
 
-struct Topic {
+public struct Topic {
     var name: String
 }
 
@@ -16,4 +16,12 @@ extension Topic {
         return json
     }
 
+    static func readTopics(_ workingPath: Path) throws -> [Topic] {
+        let topicsPath: Path = workingPath + "topics.txt"
+        let topicsContent = try TextFile(path: topicsPath).read()
+        return topicsContent
+            .components(separatedBy: .newlines)
+            .filter { !$0.isEmpty }
+            .map { Topic(name: $0) }
+    }
 }
