@@ -18,7 +18,7 @@ struct MarkdownReporter: Reporter {
         string += "| ---------- | -------- | -------- |\n"
 
         let json = try topic.jsonItems(at: workingPath)
-        for item in json["items"].arrayValue {
+        for item in json["items"].arrayValue.sorted(by: { $0["full_name"].stringValue < $1["full_name"].stringValue }) {
             if let fullName = item["full_name"].string {
                 let htmlUrl = item["html_url"].stringValue
                 let name = item["name"].stringValue
