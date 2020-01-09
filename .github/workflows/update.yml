@@ -18,9 +18,10 @@ jobs:
           ./topics.sh "${{ secrets.GITHUB_TOKEN }}"
       - name: 🏷 Flatten
         run: |
+          brew install libressl
           swift build -c release
           echo "check new topics"
-          .build/release/topic-workflow --email "${{ secrets.NEW_EMAIL }}"
+          .build/release/topic-workflow --email "${{ secrets.NEW_EMAIL }}" --apiKey "{{secrets.API_KEY }}"
           ./outputpretty.sh
           echo "generate markdown file"
           .build/release/topic-workflow list --reporter "markdown" > list.md
