@@ -30,7 +30,7 @@
   "has_downloads": true,
   "has_issues": true,
   "has_pages": false,
-  "has_projects": true,
+  "has_projects": false,
   "has_wiki": true,
   "homepage": "",
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/hooks",
