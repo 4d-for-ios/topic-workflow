@@ -18,29 +18,26 @@ public class Generate {
     public func run(_ workingPath: Path, apiKey: String?, email: String?, domain: String?) throws {
         let topics = try Topic.readTopics(workingPath)
 
-        var news: [[String: Any]] = []
+        var news: [[String: String]] = []
         for topic in topics {
             print("🏷 \(topic.name)")
             let json = try topic.jsonItems(at: workingPath)
             print("⏲ \(json["total_count"])")
             for itemJson in json["items"].arrayValue {
                 if let fullName = itemJson["full_name"].string {
-                    print(" 📦 \(fullName)")
+                    print(" 📦 \(fullName)", terminator: "")
                     let outputPath: Path = workingPath + "Output"
                     let topicParentPath: Path = outputPath + topic.name
                     let topicPath: Path = topicParentPath + "\(fullName).json"
                     if topicPath.exists {
-                        print("  👴 EXISTS") // could check updated?
-                        if let data = itemJson.dictionaryObject {
-                            news.append(data)
-                        }
+                        print(" 👴 EXISTS") // could check updated?
                     } else {
                         let orgaPath = topicPath.parent
                         if !orgaPath.exists {
                             try orgaPath.createDirectory()
                         }
-                        print("  👶 NEW")
-                        if let data = itemJson.dictionaryObject {
+                        print(" 👶 NEW")
+                        if let data = itemJson.repository?.dico  {
                             news.append(data)
                         }
                     }
@@ -50,11 +47,12 @@ public class Generate {
         }
         if !news.isEmpty {
             print("🎉 There is new packages")
-            if let apiKey = apiKey, let domain = domain {
+            if let apiKey = apiKey, let domain = domain, let email = email {
+                print("💌 Send an email to \(email)")
                 let mailgun = Mailgun(apiKey: apiKey, domain: domain, region: .us)
                 let message = Mailgun.TemplateMessage(
                     from: "eric.marchand@4d.com",
-                    to: email ?? "eric.marchand@4d.com",
+                    to: email,
                     subject: "News 4d-for-ios repositories",
                     template: "new-repository",
                     templateData: ["repositories": AnyCodable(news)]
@@ -72,7 +70,7 @@ public class Generate {
                     semaphore.signal()
                 }
                 semaphore.wait()
-            }
+            } // else no mail
         }
     }
 

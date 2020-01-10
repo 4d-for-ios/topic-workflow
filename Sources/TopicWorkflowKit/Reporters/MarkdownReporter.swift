@@ -17,15 +17,11 @@ struct MarkdownReporter: Reporter {
         string += "| Repository | Workflow | Download |\n"
         string += "| ---------- | -------- | -------- |\n"
 
-        let json = try topic.jsonItems(at: workingPath)
-        for item in json["items"].arrayValue.sorted(by: { $0["full_name"].stringValue < $1["full_name"].stringValue }) {
-            if let fullName = item["full_name"].string {
-                let htmlUrl = item["html_url"].stringValue
-                let name = item["name"].stringValue
-                string += "|[\(fullName)](\(htmlUrl)) |"
-                string += "[![\(name)](\(htmlUrl)/workflows/check/badge.svg)](\(htmlUrl)/actions?workflow=check) |"
-                string += "[![release](https://img.shields.io/github/v/release/\(fullName))](\(htmlUrl)/releases/latest/download/\(name).zip)|\n"
-            }
+        let repositories = try topic.repositories(at: workingPath).items
+        for item in repositories.sorted(by: { $0.full_name < $1.full_name }) {
+            string += "|[\(item.full_name)](\(item.html_url)) |"
+            string += "[![\(item.name)](\(item.html_url)/workflows/check/badge.svg)](\(item.html_url)/actions?workflow=check) |"
+            string += "[![release](https://img.shields.io/github/v/release/\(item.full_name))](\(item.html_url)/releases/latest/download/\(item.name).zip)|\n"
         }
         return string
     }

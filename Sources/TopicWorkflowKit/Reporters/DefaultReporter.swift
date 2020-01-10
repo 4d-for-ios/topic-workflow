@@ -15,11 +15,9 @@ struct DefaultReporter: Reporter {
     static func generateReport(topic: Topic, at workingPath: Path) throws -> String {
         var string = "🏷  \(topic.name)\n"
 
-        let json = try topic.jsonItems(at: workingPath)
-        for item in json["items"].arrayValue {
-            if let fullName = item["full_name"].string {
-                string += "📦 \(fullName)\n"
-            }
+        let repositories = try topic.repositories(at: workingPath).items
+        for item in repositories {
+            string += "📦 \(item.full_name)\n"
         }
         return string
     }

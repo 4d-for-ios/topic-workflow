@@ -20,6 +20,8 @@ public struct Reporters {
             return DefaultReporter.self
         case MarkdownReporter.identifier:
             return MarkdownReporter.self
+        case FileTextReporter.identifier:
+            return FileTextReporter.self
         default:
             fatalError("no reporter with identifier '\(reporter) available'")
         }

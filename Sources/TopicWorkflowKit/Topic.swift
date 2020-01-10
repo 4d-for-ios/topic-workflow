@@ -16,6 +16,13 @@ extension Topic {
         return json
     }
 
+    public func repositories(at workingPath: Path) throws -> Repositories {
+        let path: Path = workingPath + "\(name).json"
+        let codableFile = File<Repositories>(path: path)
+        let decoded: Repositories = try codableFile.read()
+        return decoded
+    }
+
     static func readTopics(_ workingPath: Path) throws -> [Topic] {
         let topicsPath: Path = workingPath + "topics.txt"
         let topicsContent = try TextFile(path: topicsPath).read()
