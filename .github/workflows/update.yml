@@ -21,7 +21,7 @@ jobs:
           brew install libressl
           swift build -c release
           echo "check new topics"
-          .build/release/topic-workflow --email "${{ secrets.NEW_EMAIL }}" --apiKey "{{secrets.API_KEY }}" --apiKey "{{secrets.DOMAIN }}"
+          .build/release/topic-workflow --from "${{ secrets.FROM_EMAIL }}" --to "${{ secrets.NEW_EMAIL }}" --apiKey "{{secrets.API_KEY }}" --apiKey "{{secrets.DOMAIN }}"
           ./outputpretty.sh
           echo "generate markdown file"
           .build/release/topic-workflow list --reporter "markdown" > list.md

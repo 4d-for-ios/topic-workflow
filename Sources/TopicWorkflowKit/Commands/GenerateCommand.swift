@@ -21,7 +21,7 @@ struct GenerateCommand: CommandProtocol {
         //let config = Config(options: options) ?? Config.default
         let builder = Generate()
         do {
-            try builder.run(Path(rawValue: workDirectoryString), apiKey: options.apiKey, email: options.email, domain: options.domain)
+            try builder.run(Path(rawValue: workDirectoryString), mailParameters: options.mailParameters)
         } catch let error as FileKitError {
             print("\(error) \(String(describing: error.error))")
             exit(1)
@@ -38,17 +38,20 @@ struct GenerateOptions: OptionsProtocol {
     typealias ClientError = CommandantError<()>
 
     let path: String?
-    let email: String?
+    let to: String?
+    let from: String?
     let apiKey: String?
     let domain: String?
     let configurationFile: String?
 
-    static func create(_ path: String?) -> (_ email: String?)  -> (_ apiKey: String?) -> (_ domain: String?) -> (_ config: String?) -> GenerateOptions {
-        return { email in
-            return { apiKey in
-                return { domain in
-                    return { config in
-                        self.init(path: path, email: email, apiKey: apiKey, domain: domain, configurationFile: config)
+    static func create(_ path: String?) -> (_ to: String?) -> (_ from: String?) -> (_ apiKey: String?) -> (_ domain: String?) -> (_ config: String?) -> GenerateOptions {
+        return { to in
+            return { from in
+                return { apiKey in
+                    return { domain in
+                        return { config in
+                            self.init(path: path, to: to, from: from, apiKey: apiKey, domain: domain, configurationFile: config)
+                        }
                     }
                 }
             }
@@ -58,11 +61,20 @@ struct GenerateOptions: OptionsProtocol {
     static func evaluate(_ mode: CommandMode) -> Result<GenerateCommand.Options, CommandantError<GenerateOptions.ClientError>> {
         return create
             <*> mode <| Option(key: "path", defaultValue: nil, usage: "project root directory")
-            <*> mode <| Option(key: "email", defaultValue: nil, usage: "email to send new")
+            <*> mode <| Option(key: "to", defaultValue: nil, usage: "email to send new repo")
+            <*> mode <| Option(key: "from", defaultValue: nil, usage: "email to send with")
             <*> mode <| Option(key: "apiKey", defaultValue: nil, usage: "apiKey to send mail using mailgun")
             <*> mode <| Option(key: "domain", defaultValue: nil, usage: "domain from the mail is send")
             <*> mode <| Option(key: "config", defaultValue: nil, usage: "the path to configuration file")
     }
+}
+
+extension GenerateOptions {
+
+    var mailParameters: MailParameters? {
+        return MailParameters.create(apiKey: apiKey, from: from, to: to, domain: domain)
+    }
+
 }
 
 extension Config {

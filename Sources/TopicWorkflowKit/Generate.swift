@@ -15,7 +15,7 @@ import Vapor
 import AnyCodable
 
 public class Generate {
-    public func run(_ workingPath: Path, apiKey: String?, email: String?, domain: String?) throws {
+    public func run(_ workingPath: Path, mailParameters: MailParameters?) throws {
         let topics = try Topic.readTopics(workingPath)
 
         var news: [[String: String]] = []
@@ -47,12 +47,12 @@ public class Generate {
         }
         if !news.isEmpty {
             print("🎉 There is new packages")
-            if let apiKey = apiKey, let domain = domain, let email = email {
-                print("💌 Send an email to \(email)")
-                let mailgun = Mailgun(apiKey: apiKey, domain: domain, region: .us)
+            if let mailParameters = mailParameters {
+                print("💌 Send an email to \(mailParameters.to)")
+                let mailgun = Mailgun(apiKey: mailParameters.apiKey, domain: mailParameters.domain, region: .us)
                 let message = Mailgun.TemplateMessage(
-                    from: "eric.marchand@4d.com",
-                    to: email,
+                    from: mailParameters.from,
+                    to: mailParameters.to,
                     subject: "News 4d-for-ios repositories",
                     template: "new-repository",
                     templateData: ["repositories": AnyCodable(news)]
@@ -72,6 +72,25 @@ public class Generate {
                 semaphore.wait()
             } // else no mail
         }
+    }
+
+}
+
+public struct MailParameters {
+
+    var apiKey: String
+    var from: String
+    var to: String
+    var domain: String
+
+    static func create(apiKey: String?,
+                       from: String?,
+                       to: String?,
+                       domain: String?)  -> MailParameters? {
+        guard let apiKey = apiKey, let domain = domain, let to = to, let from = from else {
+            return nil
+        }
+        return MailParameters(apiKey: apiKey, from: from, to: to, domain: domain)
     }
 
 }
