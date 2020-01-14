@@ -16,13 +16,13 @@ jobs:
       - name: 🔄 Update JSON
         run: |
           ./topics.sh "${{ secrets.GITHUB_TOKEN }}"
-      - name: 🌊 Install topic-workflow
+      - name: 🔒 Install ssl
         run: |
           brew install libressl
-
-          REPOSITORY_NAME=$(jq --raw-output '.repository.name' $GITHUB_EVENT_PATH)
-          curl -L https://github.com/$GITHUB_REPOSITORY/releases/latest/download/$REPOSITORY_NAME.zip --output $REPOSITORY_NAME.zip
-          unzip $REPOSITORY_NAME.zip
+      - name: 🌊 Install topic-workflow
+        run: |
+          curl -L https://github.com/$GITHUB_REPOSITORY/releases/latest/download/topic-workflow.zip --output topic-workflow.zip
+          unzip topic-workflow.zip
 
           if [ -f .build/release/topic-workflow ]; then
             echo "Release installed"
