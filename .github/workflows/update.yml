@@ -16,13 +16,27 @@ jobs:
       - name: 🔄 Update JSON
         run: |
           ./topics.sh "${{ secrets.GITHUB_TOKEN }}"
-      - name: 🏷 Flatten
+      - name: 🌊 Install topic-workflow
         run: |
           brew install libressl
-          swift build -c release
+
+          REPOSITORY_NAME=$(jq --raw-output '.repository.name' $GITHUB_EVENT_PATH)
+          curl -L https://github.com/$GITHUB_REPOSITORY/releases/latest/download/$REPOSITORY_NAME.zip --output $REPOSITORY_NAME.zip
+          unzip $REPOSITORY_NAME.zip
+
+          if [ -f .build/release/topic-workflow ]; then
+            echo "Release installed"
+          else
+            echo "No release, do a new build"
+            swift build -c release
+          fi
+      - name: 🏷 Flatten
+        run: |
           echo "check new topics"
           .build/release/topic-workflow --from "${{ secrets.FROM_EMAIL }}" --to "${{ secrets.NEW_EMAIL }}" --apiKey "{{secrets.API_KEY }}" --apiKey "{{secrets.DOMAIN }}"
           ./outputpretty.sh
+      - name: 📊Markdown
+        run: |
           echo "generate markdown file"
           .build/release/topic-workflow list --reporter "markdown" > list.md
       - name: ⬆️ Push
