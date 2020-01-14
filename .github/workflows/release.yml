@@ -13,6 +13,9 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 1
+      - name: 🔒 Install SSL
+        run: |
+          brew install libressl
       - name: 🏗 swiftbuild
         run: |
           swift build -c release
