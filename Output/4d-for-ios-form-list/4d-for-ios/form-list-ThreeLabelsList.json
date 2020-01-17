@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-ThreeLabelsList/pulls{/number}",
-  "pushed_at": "2019-11-28T13:58:16Z",
+  "pushed_at": "2020-01-17T09:10:40Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-ThreeLabelsList/releases{/id}",
   "size": 983,
   "ssh_url": "git@github.com:4d-for-ios/form-list-ThreeLabelsList.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-list"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-ThreeLabelsList/git/trees{/sha}",
-  "updated_at": "2019-11-28T13:58:18Z",
+  "updated_at": "2020-01-17T09:10:42Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-ThreeLabelsList",
   "watchers": 0,
   "watchers_count": 0

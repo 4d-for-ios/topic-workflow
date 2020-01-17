@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/pulls{/number}",
-  "pushed_at": "2019-11-28T13:56:53Z",
+  "pushed_at": "2020-01-17T09:07:38Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/releases{/id}",
   "size": 521,
   "ssh_url": "git@github.com:4d-for-ios/form-detail-Circle.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-detail"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/git/trees{/sha}",
-  "updated_at": "2019-11-28T13:56:55Z",
+  "updated_at": "2020-01-17T09:07:40Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle",
   "watchers": 0,
   "watchers_count": 0

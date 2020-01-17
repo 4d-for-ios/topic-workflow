@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable/pulls{/number}",
-  "pushed_at": "2019-11-28T13:56:43Z",
+  "pushed_at": "2020-01-17T09:07:18Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable/releases{/id}",
   "size": 3486,
   "ssh_url": "git@github.com:4d-for-ios/form-list-VisualTable.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-list"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable/git/trees{/sha}",
-  "updated_at": "2019-11-28T13:56:46Z",
+  "updated_at": "2020-01-17T09:07:20Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable",
   "watchers": 0,
   "watchers_count": 0

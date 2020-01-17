@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/pulls{/number}",
-  "pushed_at": "2019-11-28T13:53:18Z",
+  "pushed_at": "2020-01-17T09:03:35Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/releases{/id}",
   "size": 21888,
   "ssh_url": "git@github.com:4d-for-ios/form-list-SlantedCollection.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-list"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/git/trees{/sha}",
-  "updated_at": "2019-11-28T13:53:20Z",
+  "updated_at": "2020-01-17T09:03:37Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection",
   "watchers": 0,
   "watchers_count": 0

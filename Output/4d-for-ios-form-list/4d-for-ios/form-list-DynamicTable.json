@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/pulls{/number}",
-  "pushed_at": "2019-11-28T13:55:41Z",
+  "pushed_at": "2020-01-17T09:04:36Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/releases{/id}",
   "size": 1633,
   "ssh_url": "git@github.com:4d-for-ios/form-list-DynamicTable.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-list"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/git/trees{/sha}",
-  "updated_at": "2019-11-28T13:55:43Z",
+  "updated_at": "2020-01-17T09:04:38Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable",
   "watchers": 0,
   "watchers_count": 0
