@@ -87,7 +87,7 @@
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksList/pulls{/number}",
   "pushed_at": "2020-01-17T09:02:53Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksList/releases{/id}",
-  "size": 1294,
+  "size": 1295,
   "ssh_url": "git@github.com:4d-for-ios/form-list-TasksList.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksList/stargazers",
