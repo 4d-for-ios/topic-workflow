@@ -1178,9 +1178,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-Html/pulls{/number}",
-      "pushed_at": "2020-01-16T14:31:59Z",
+      "pushed_at": "2020-01-21T15:02:12Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/formatter-Html/releases{/id}",
-      "size": 26,
+      "size": 27,
       "ssh_url": "git@github.com:4d-for-ios/formatter-Html.git",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Html/stargazers",
@@ -1195,7 +1195,7 @@
         "4d-for-ios-formatter"
       ],
       "trees_url": "https://api.github.com/repos/4d-for-ios/formatter-Html/git/trees{/sha}",
-      "updated_at": "2020-01-16T14:32:01Z",
+      "updated_at": "2020-01-21T15:02:14Z",
       "url": "https://api.github.com/repos/4d-for-ios/formatter-Html",
       "watchers": 0,
       "watchers_count": 0
