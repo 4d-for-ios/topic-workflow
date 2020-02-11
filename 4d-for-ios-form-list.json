@@ -1740,7 +1740,7 @@
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleVisualTable/pulls{/number}",
       "pushed_at": "2020-02-11T15:16:16Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleVisualTable/releases{/id}",
-      "size": 2542,
+      "size": 2544,
       "ssh_url": "git@github.com:4d-for-ios/form-list-SimpleVisualTable.git",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleVisualTable/stargazers",
