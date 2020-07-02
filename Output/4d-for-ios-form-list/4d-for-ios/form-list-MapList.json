@@ -87,7 +87,7 @@
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/pulls{/number}",
   "pushed_at": "2020-07-02T09:57:26Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/releases{/id}",
-  "size": 2464,
+  "size": 2467,
   "ssh_url": "git@github.com:4d-for-ios/form-list-MapList.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/stargazers",
