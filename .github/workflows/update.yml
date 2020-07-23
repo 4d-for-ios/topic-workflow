@@ -41,6 +41,8 @@ jobs:
           .build/release/topic-workflow list --reporter "markdown" > list.md
       - name: ⬆️ Push
         run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -a -m "🔄 Update"
           ./push.sh "master" "${{ secrets.GITHUB_TOKEN }}"
