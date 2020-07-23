@@ -85,9 +85,9 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/pulls{/number}",
-  "pushed_at": "2020-07-10T07:27:58Z",
+  "pushed_at": "2020-07-20T14:40:08Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/releases{/id}",
-  "size": 24,
+  "size": 26,
   "ssh_url": "git@github.com:4d-for-ios/formatter-DownloadActivity.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/stargazers",
@@ -101,7 +101,7 @@
     "4d-for-ios-formatter"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/git/trees{/sha}",
-  "updated_at": "2020-07-10T13:32:06Z",
+  "updated_at": "2020-07-20T14:36:38Z",
   "url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity",
   "watchers": 0,
   "watchers_count": 0
