@@ -87,7 +87,7 @@
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/pulls{/number}",
   "pushed_at": "2020-09-24T13:43:20Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/releases{/id}",
-  "size": 729,
+  "size": 735,
   "ssh_url": "git@github.com:4d-for-ios/form-detail-Cards.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/stargazers",

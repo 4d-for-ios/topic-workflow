@@ -87,7 +87,7 @@
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/pulls{/number}",
   "pushed_at": "2020-09-24T14:01:39Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/releases{/id}",
-  "size": 645,
+  "size": 654,
   "ssh_url": "git@github.com:4d-for-ios/form-detail-Dashboard.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/stargazers",
