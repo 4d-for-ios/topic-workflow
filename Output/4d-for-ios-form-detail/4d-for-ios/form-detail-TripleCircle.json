@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/pulls{/number}",
-  "pushed_at": "2020-01-17T09:09:33Z",
+  "pushed_at": "2020-09-24T14:08:04Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/releases{/id}",
   "size": 470,
   "ssh_url": "git@github.com:4d-for-ios/form-detail-TripleCircle.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-detail"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/git/trees{/sha}",
-  "updated_at": "2020-01-17T09:09:35Z",
+  "updated_at": "2020-09-24T14:08:06Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle",
   "watchers": 0,
   "watchers_count": 0

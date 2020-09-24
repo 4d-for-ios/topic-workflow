@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/pulls{/number}",
-  "pushed_at": "2020-01-17T09:09:46Z",
+  "pushed_at": "2020-09-24T13:54:35Z",
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/releases{/id}",
   "size": 1195,
   "ssh_url": "git@github.com:4d-for-ios/form-detail-VisualContact.git",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-detail"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/git/trees{/sha}",
-  "updated_at": "2020-01-17T09:09:48Z",
+  "updated_at": "2020-09-24T13:54:37Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact",
   "watchers": 0,
   "watchers_count": 0
