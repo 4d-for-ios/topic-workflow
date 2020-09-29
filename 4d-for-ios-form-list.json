@@ -530,7 +530,7 @@
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/pulls{/number}",
       "pushed_at": "2020-09-29T06:57:05Z",
       "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/releases{/id}",
-      "size": 24575,
+      "size": 27370,
       "ssh_url": "git@github.com:4d-for-ios/form-list-SlantedCollection.git",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/stargazers",
