@@ -60,6 +60,7 @@
 | Repository | Workflow | Download |
 | ---------- | -------- | -------- |
 |[4d-for-ios/form-login-SignInWithApple](https://github.com/4d-for-ios/form-login-SignInWithApple) |[![form-login-SignInWithApple](https://github.com/4d-for-ios/form-login-SignInWithApple/workflows/check/badge.svg)](https://github.com/4d-for-ios/form-login-SignInWithApple/actions?workflow=check) |[![release](https://img.shields.io/github/v/release/4d-for-ios/form-login-SignInWithApple)](https://github.com/4d-for-ios/form-login-SignInWithApple/releases/latest/download/form-login-SignInWithApple.zip)|
+|[mesopelagique/form-login-SignInWithQRCode](https://github.com/mesopelagique/form-login-SignInWithQRCode) |[![form-login-SignInWithQRCode](https://github.com/mesopelagique/form-login-SignInWithQRCode/workflows/check/badge.svg)](https://github.com/mesopelagique/form-login-SignInWithQRCode/actions?workflow=check) |[![release](https://img.shields.io/github/v/release/mesopelagique/form-login-SignInWithQRCode)](https://github.com/mesopelagique/form-login-SignInWithQRCode/releases/latest/download/form-login-SignInWithQRCode.zip)|
 
 ## 4d-for-ios-formatter
 
