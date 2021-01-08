@@ -87,7 +87,7 @@
   "pulls_url": "https://api.github.com/repos/mesopelagique/form-detail-WebArea/pulls{/number}",
   "pushed_at": "2021-01-08T20:42:48Z",
   "releases_url": "https://api.github.com/repos/mesopelagique/form-detail-WebArea/releases{/id}",
-  "size": 1010,
+  "size": 1057,
   "ssh_url": "git@github.com:mesopelagique/form-detail-WebArea.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/mesopelagique/form-detail-WebArea/stargazers",
