@@ -14,7 +14,7 @@
   "created_at": "2019-11-13T13:38:38Z",
   "default_branch": "master",
   "deployments_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList/deployments",
-  "description": "4D for iOS List Form template",
+  "description": "4D Mobile List Form template",
   "disabled": false,
   "downloads_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList/downloads",
   "events_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList/events",
@@ -103,7 +103,7 @@
     "4d-for-ios-form-list"
   ],
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList/git/trees{/sha}",
-  "updated_at": "2020-01-17T09:10:20Z",
+  "updated_at": "2021-03-25T12:00:55Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList",
   "watchers": 0,
   "watchers_count": 0
