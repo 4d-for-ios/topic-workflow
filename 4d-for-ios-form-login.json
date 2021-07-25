@@ -88,9 +88,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple/pulls{/number}",
-      "pushed_at": "2021-07-25T22:04:30Z",
+      "pushed_at": "2021-07-25T22:12:18Z",
       "releases_url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple/releases{/id}",
-      "size": 34,
+      "size": 41,
       "ssh_url": "git@github.com:4d-go-mobile/form-login-SignInWithApple.git",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple/stargazers",
@@ -106,7 +106,7 @@
         "4d-for-ios-form-login"
       ],
       "trees_url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple/git/trees{/sha}",
-      "updated_at": "2021-07-25T22:04:33Z",
+      "updated_at": "2021-07-25T22:12:20Z",
       "url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple",
       "watchers": 0,
       "watchers_count": 0
