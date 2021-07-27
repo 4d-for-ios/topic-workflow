@@ -85,7 +85,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/pulls{/number}",
-  "pushed_at": "2021-01-08T20:33:11Z",
+  "pushed_at": "2021-07-27T12:50:09Z",
   "releases_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/releases{/id}",
   "size": 398,
   "ssh_url": "git@github.com:mesopelagique/form-login-SignInWithQRCode.git",
@@ -102,7 +102,7 @@
     "4d-for-ios-form-login"
   ],
   "trees_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/git/trees{/sha}",
-  "updated_at": "2021-01-21T16:50:06Z",
+  "updated_at": "2021-07-27T12:50:11Z",
   "url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode",
   "watchers": 1,
   "watchers_count": 1
