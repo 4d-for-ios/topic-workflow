@@ -83,8 +83,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail/pulls{/number}",
@@ -193,8 +195,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxDetail/pulls{/number}",
@@ -303,8 +307,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/pulls{/number}",
@@ -413,8 +419,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/pulls{/number}",
@@ -523,8 +531,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/pulls{/number}",
@@ -633,8 +643,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-LeftCutHeader/pulls{/number}",
@@ -743,8 +755,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Numbers/pulls{/number}",
@@ -853,8 +867,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxHeader/pulls{/number}",
@@ -963,8 +979,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-RightCutHeader/pulls{/number}",
@@ -1073,8 +1091,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/pulls{/number}",
@@ -1183,8 +1203,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleHeader/pulls{/number}",
@@ -1293,8 +1315,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SlidingHeader/pulls{/number}",
@@ -1403,8 +1427,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/pulls{/number}",
@@ -1513,8 +1539,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksPlus/pulls{/number}",
@@ -1623,8 +1651,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/pulls{/number}",
@@ -1733,8 +1763,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/pulls{/number}",
@@ -1843,8 +1875,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/pulls{/number}",
@@ -1953,8 +1987,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/pulls{/number}",
@@ -2063,8 +2099,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/pulls{/number}",
@@ -2173,8 +2211,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/mesopelagique/form-detail-WebArea/pulls{/number}",

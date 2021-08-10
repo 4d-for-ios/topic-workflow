@@ -83,8 +83,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-Mail/pulls{/number}",
@@ -192,8 +194,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-Url/pulls{/number}",
@@ -301,8 +305,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-Phone/pulls{/number}",
@@ -410,8 +416,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-Address/pulls{/number}",
@@ -519,8 +527,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/pulls{/number}",
@@ -628,8 +638,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntToString/pulls{/number}",
@@ -737,8 +749,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToImage/pulls{/number}",
@@ -846,8 +860,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToString/pulls{/number}",
@@ -955,8 +971,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/pulls{/number}",
@@ -1064,8 +1082,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-Emoji/pulls{/number}",
@@ -1173,8 +1193,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/pulls{/number}",
@@ -1282,8 +1304,10 @@
       },
       "permissions": {
         "admin": false,
+        "maintain": false,
         "pull": false,
-        "push": false
+        "push": false,
+        "triage": false
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/pulls{/number}",
