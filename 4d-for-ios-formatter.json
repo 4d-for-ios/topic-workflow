@@ -2,6 +2,7 @@
   "incomplete_results": false,
   "items": [
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-Mail/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Mail/assignees{/user}",
@@ -113,6 +114,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-Url/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Url/assignees{/user}",
@@ -224,6 +226,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-Phone/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Phone/assignees{/user}",
@@ -335,6 +338,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-Address/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Address/assignees{/user}",
@@ -446,6 +450,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/assignees{/user}",
@@ -557,6 +562,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntToString/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntToString/assignees{/user}",
@@ -668,6 +674,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToImage/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToImage/assignees{/user}",
@@ -779,6 +786,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToString/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToString/assignees{/user}",
@@ -890,6 +898,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/assignees{/user}",
@@ -1001,6 +1010,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-Emoji/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Emoji/assignees{/user}",
@@ -1112,6 +1122,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/assignees{/user}",
@@ -1223,6 +1234,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/assignees{/user}",

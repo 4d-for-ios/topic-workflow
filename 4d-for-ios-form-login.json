@@ -2,6 +2,7 @@
   "incomplete_results": false,
   "items": [
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-go-mobile/form-login-SignInWithApple/assignees{/user}",
@@ -114,6 +115,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/assignees{/user}",

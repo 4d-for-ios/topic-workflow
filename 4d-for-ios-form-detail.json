@@ -2,6 +2,7 @@
   "incomplete_results": false,
   "items": [
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail/assignees{/user}",
@@ -114,6 +115,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxDetail/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxDetail/assignees{/user}",
@@ -226,6 +228,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/assignees{/user}",
@@ -338,6 +341,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/assignees{/user}",
@@ -450,6 +454,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Dashboard/assignees{/user}",
@@ -562,6 +567,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-LeftCutHeader/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-LeftCutHeader/assignees{/user}",
@@ -674,6 +680,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-Numbers/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Numbers/assignees{/user}",
@@ -786,6 +793,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxHeader/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-ParallaxHeader/assignees{/user}",
@@ -898,6 +906,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-RightCutHeader/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-RightCutHeader/assignees{/user}",
@@ -1010,6 +1019,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/assignees{/user}",
@@ -1122,6 +1132,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleHeader/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleHeader/assignees{/user}",
@@ -1234,6 +1245,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-SlidingHeader/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-SlidingHeader/assignees{/user}",
@@ -1346,6 +1358,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/assignees{/user}",
@@ -1458,6 +1471,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksPlus/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksPlus/assignees{/user}",
@@ -1570,6 +1584,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/assignees{/user}",
@@ -1682,6 +1697,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-VisualContact/assignees{/user}",
@@ -1794,6 +1810,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/assignees{/user}",
@@ -1906,6 +1923,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-ClientDetail/assignees{/user}",
@@ -2018,6 +2036,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/assignees{/user}",
@@ -2130,6 +2149,7 @@
       "watchers_count": 0
     },
     {
+      "allow_forking": true,
       "archive_url": "https://api.github.com/repos/mesopelagique/form-detail-WebArea/{archive_format}{/ref}",
       "archived": false,
       "assignees_url": "https://api.github.com/repos/mesopelagique/form-detail-WebArea/assignees{/user}",
