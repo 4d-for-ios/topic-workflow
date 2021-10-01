@@ -107,6 +107,7 @@
   "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Address/git/trees{/sha}",
   "updated_at": "2021-07-20T22:12:35Z",
   "url": "https://api.github.com/repos/4d-go-mobile/formatter-Address",
+  "visibility": "public",
   "watchers": 0,
   "watchers_count": 0
 }

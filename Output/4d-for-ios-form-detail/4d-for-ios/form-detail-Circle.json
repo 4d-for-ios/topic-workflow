@@ -108,6 +108,7 @@
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle/git/trees{/sha}",
   "updated_at": "2020-09-24T13:56:56Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-detail-Circle",
+  "visibility": "public",
   "watchers": 0,
   "watchers_count": 0
 }

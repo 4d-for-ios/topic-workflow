@@ -110,6 +110,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Mail/git/trees{/sha}",
       "updated_at": "2021-07-01T13:50:05Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-Mail",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -222,6 +223,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Url/git/trees{/sha}",
       "updated_at": "2021-07-20T22:11:52Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-Url",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -334,6 +336,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Phone/git/trees{/sha}",
       "updated_at": "2021-07-20T22:15:51Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-Phone",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -446,6 +449,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Address/git/trees{/sha}",
       "updated_at": "2021-07-20T22:12:35Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-Address",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -558,6 +562,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/git/trees{/sha}",
       "updated_at": "2021-07-01T13:50:05Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -670,6 +675,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntToString/git/trees{/sha}",
       "updated_at": "2021-07-01T13:50:05Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-IntToString",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -782,6 +788,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToImage/git/trees{/sha}",
       "updated_at": "2021-07-26T09:56:45Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToImage",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -894,6 +901,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToString/git/trees{/sha}",
       "updated_at": "2021-07-26T09:44:22Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-TextToString",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1006,6 +1014,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/git/trees{/sha}",
       "updated_at": "2021-07-26T09:54:10Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1118,6 +1127,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Emoji/git/trees{/sha}",
       "updated_at": "2021-07-20T22:14:12Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-Emoji",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1230,6 +1240,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/git/trees{/sha}",
       "updated_at": "2021-07-01T13:50:05Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-Html",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1341,6 +1352,7 @@
       "trees_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/git/trees{/sha}",
       "updated_at": "2021-07-01T13:50:06Z",
       "url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     }

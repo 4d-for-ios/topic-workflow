@@ -108,6 +108,7 @@
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail/git/trees{/sha}",
   "updated_at": "2020-10-06T11:56:46Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail",
+  "visibility": "public",
   "watchers": 0,
   "watchers_count": 0
 }

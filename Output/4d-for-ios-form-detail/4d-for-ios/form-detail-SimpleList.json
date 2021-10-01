@@ -108,6 +108,7 @@
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/git/trees{/sha}",
   "updated_at": "2020-01-17T09:09:58Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList",
+  "visibility": "public",
   "watchers": 0,
   "watchers_count": 0
 }

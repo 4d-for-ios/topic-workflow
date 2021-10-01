@@ -111,6 +111,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksCollection/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-TasksCollection",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -224,6 +225,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-TasksList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -337,6 +339,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-CardsTable/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-CardsTable",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -450,6 +453,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-MapList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -563,6 +567,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -676,6 +681,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -789,6 +795,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Cube/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Cube",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -902,6 +909,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1015,6 +1023,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Horizontal-Cards/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Horizontal-Cards",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1128,6 +1137,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Mozaic/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Mozaic",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1241,6 +1251,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Numbers/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Numbers",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1354,6 +1365,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Parallax/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Parallax",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1467,6 +1479,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Profile/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Profile",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1580,6 +1593,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleCollection/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleCollection",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1693,6 +1707,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleTable/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleTable",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1806,6 +1821,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleVisualTable/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleVisualTable",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -1919,6 +1935,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SmoothTable/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-SmoothTable",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2032,6 +2049,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-SquareProfile/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-SquareProfile",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2145,6 +2163,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-Tasks/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-Tasks",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2258,6 +2277,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2371,6 +2391,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2484,6 +2505,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2597,6 +2619,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2710,6 +2733,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2823,6 +2847,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-ThreeLabelsList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-ThreeLabelsList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -2936,6 +2961,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-FourLabelsList/git/trees{/sha}",
       "updated_at": "2021-03-25T12:00:55Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-FourLabelsList",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     },
@@ -3049,6 +3075,7 @@
       "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-FiveLabelsList/git/trees{/sha}",
       "updated_at": "2021-09-23T01:06:17Z",
       "url": "https://api.github.com/repos/4d-for-ios/form-list-FiveLabelsList",
+      "visibility": "public",
       "watchers": 1,
       "watchers_count": 1
     },
@@ -3160,6 +3187,7 @@
       "trees_url": "https://api.github.com/repos/mesopelagique/form-list-Tabular/git/trees{/sha}",
       "updated_at": "2021-01-29T08:54:05Z",
       "url": "https://api.github.com/repos/mesopelagique/form-list-Tabular",
+      "visibility": "public",
       "watchers": 0,
       "watchers_count": 0
     }
