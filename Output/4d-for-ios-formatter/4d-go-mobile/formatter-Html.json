@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/hooks",
   "html_url": "https://github.com/4d-go-mobile/formatter-Html",
   "id": 218231059,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-go-mobile/formatter-Html/issues{/number}",

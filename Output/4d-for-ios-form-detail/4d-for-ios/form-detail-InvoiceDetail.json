@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/hooks",
   "html_url": "https://github.com/4d-for-ios/form-detail-InvoiceDetail",
   "id": 221717823,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/issues{/number}",

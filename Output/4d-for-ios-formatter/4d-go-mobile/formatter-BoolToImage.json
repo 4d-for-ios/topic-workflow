@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/hooks",
   "html_url": "https://github.com/4d-go-mobile/formatter-BoolToImage",
   "id": 190393100,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/issues{/number}",

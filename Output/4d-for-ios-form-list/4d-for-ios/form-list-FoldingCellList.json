@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/hooks",
   "html_url": "https://github.com/4d-for-ios/form-list-FoldingCellList",
   "id": 218322625,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/issues{/number}",

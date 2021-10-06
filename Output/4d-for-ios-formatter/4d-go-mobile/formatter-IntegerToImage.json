@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/hooks",
   "html_url": "https://github.com/4d-go-mobile/formatter-IntegerToImage",
   "id": 190390458,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-go-mobile/formatter-IntegerToImage/issues{/number}",

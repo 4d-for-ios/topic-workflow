@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards/hooks",
   "html_url": "https://github.com/4d-for-ios/form-list-VerticalCards",
   "id": 218803629,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards/issues{/number}",

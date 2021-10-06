@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/hooks",
   "html_url": "https://github.com/4d-for-ios/form-list-DynamicTable",
   "id": 218802611,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-list-DynamicTable/issues{/number}",

@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/hooks",
   "html_url": "https://github.com/4d-for-ios/form-detail-SimpleContact",
   "id": 219442290,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleContact/issues{/number}",

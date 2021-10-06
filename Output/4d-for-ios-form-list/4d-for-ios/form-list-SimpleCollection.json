@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleCollection/hooks",
   "html_url": "https://github.com/4d-for-ios/form-list-SimpleCollection",
   "id": 218803182,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleCollection/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleCollection/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-list-SimpleCollection/issues{/number}",

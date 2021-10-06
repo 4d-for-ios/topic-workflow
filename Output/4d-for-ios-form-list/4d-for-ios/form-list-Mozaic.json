@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-list-Mozaic/hooks",
   "html_url": "https://github.com/4d-for-ios/form-list-Mozaic",
   "id": 218802768,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-list-Mozaic/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-list-Mozaic/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-list-Mozaic/issues{/number}",

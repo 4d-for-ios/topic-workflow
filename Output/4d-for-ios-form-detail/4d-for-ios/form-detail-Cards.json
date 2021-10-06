@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/hooks",
   "html_url": "https://github.com/4d-for-ios/form-detail-Cards",
   "id": 219441740,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/issues{/number}",

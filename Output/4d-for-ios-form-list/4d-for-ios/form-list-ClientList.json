@@ -37,6 +37,7 @@
   "hooks_url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList/hooks",
   "html_url": "https://github.com/4d-for-ios/form-list-ClientList",
   "id": 221467531,
+  "is_template": false,
   "issue_comment_url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList/issues/comments{/number}",
   "issue_events_url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList/issues/events{/number}",
   "issues_url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList/issues{/number}",
